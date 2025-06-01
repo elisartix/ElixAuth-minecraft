@@ -1,0 +1,13 @@
+name: ElixAuth
+version: 1.0
+main: me.elisartix.auth.Main
+commands:
+  register:
+    aliases: [reg, r]
+    description: Регистрация игрока
+  login:
+    aliases: [l]
+    description: Вход игрока
+  logout:
+    aliases: [lo, exit, выход]
+    description: Разлогиниться
